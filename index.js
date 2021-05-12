@@ -1,9 +1,12 @@
-/**
- * @format
- */
-
-import {AppRegistry} from 'react-native';
+import React from 'react';
+import {AppRegistry, SafeAreaView} from 'react-native';
 import {name as appName} from './app.json';
 import Navigation from './app/navigation/Navigation';
 
-AppRegistry.registerComponent(appName, () => Navigation);
+const route = () => (
+  <SafeAreaView style={{flex: 1}}>
+    <Navigation />
+  </SafeAreaView>
+);
+
+AppRegistry.registerComponent(appName, () => route);
