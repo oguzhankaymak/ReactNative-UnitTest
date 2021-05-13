@@ -4,11 +4,9 @@ import {View, Text, Modal, TouchableOpacity, TextInput} from 'react-native';
 import styles from './styles/AddNoteFormModalStyle';
 
 const AddNoteFormModal = ({closeModal, addNote}) => {
-  const [title, setTitle] = useState('');
   const [text, setText] = useState('');
 
   const resetInputs = () => {
-    setTitle('');
     setText('');
   };
   return (
@@ -27,18 +25,13 @@ const AddNoteFormModal = ({closeModal, addNote}) => {
           <View style={styles.container}>
             <Text style={styles.titleText}>Add Note</Text>
             <TextInput
-              value={title}
-              onChangeText={setTitle}
-              style={styles.textInput}
-            />
-            <TextInput
               value={text}
               onChangeText={setText}
               style={styles.textInput}
             />
             <TouchableOpacity
               onPress={() => {
-                addNote(title, text);
+                addNote(text);
                 resetInputs();
               }}
               style={styles.addButton}>

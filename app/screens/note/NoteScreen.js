@@ -9,11 +9,10 @@ const NoteScreen = () => {
   const [modalVisible, setModalVisible] = useState(false);
   const [noteList, setNoteList] = useState([]);
 
-  const addNote = (title, text) => {
-    if (title && title.length > 0 && text && text.length > 0) {
+  const addNote = text => {
+    if (text && text.length > 0) {
       let tempValue = {
         id: Math.floor(Math.random() * 100000),
-        title,
         text,
       };
 
@@ -29,12 +28,8 @@ const NoteScreen = () => {
   const _renderContent = () => {
     if (noteList && noteList.length > 0) {
       return noteList.map(note => (
-        <View style={styles.noteCardView}>
-          <NoteCard
-            key={note.id}
-            note={note}
-            deleteNote={id => deleteNote(id)}
-          />
+        <View key={note.id} style={styles.noteCardView}>
+          <NoteCard note={note} deleteNote={id => deleteNote(id)} />
         </View>
       ));
     }

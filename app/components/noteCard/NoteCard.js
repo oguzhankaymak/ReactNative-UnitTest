@@ -7,7 +7,6 @@ const NoteCard = ({note, deleteNote}) => {
   return (
     <View style={styles.card}>
       <View>
-        <Text>{note.title}</Text>
         <Text>{note.text}</Text>
       </View>
       <TouchableOpacity
