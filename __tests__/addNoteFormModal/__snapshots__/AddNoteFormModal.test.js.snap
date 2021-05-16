@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`given a text in the input and then returns that text when click button 1`] = `
+<Modal
+  animationType="fade"
+  hardwareAccelerated={false}
+  transparent={true}
+  visible={true}
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#18FDFA80",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderRadius": 10,
+          "elevation": 5,
+          "shadowColor": "#000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.25,
+          "shadowRadius": 4,
+          "width": 250,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "flex-end",
+            "padding": 2,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          focusable={false}
+          hitSlop={
+            Object {
+              "bottom": 30,
+              "left": 30,
+              "right": 30,
+              "top": 30,
+            }
+          }
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "black",
+                "borderRadius": 10,
+                "height": 24,
+                "justifyContent": "center",
+                "width": 24,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#ffffff",
+                }
+              }
+            >
+              X
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "paddingBottom": 20,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 16,
+            }
+          }
+        >
+          Add Note
+        </Text>
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Write note..."
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "alignItems": "center",
+              "borderColor": "#A9A9A9",
+              "borderRadius": 10,
+              "borderWidth": 1,
+              "fontSize": 13,
+              "height": 35,
+              "marginTop": 15,
+              "paddingVertical": 0,
+              "width": 200,
+            }
+          }
+          underlineColorAndroid="transparent"
+          value=""
+        />
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#4BB543",
+              "borderRadius": 20,
+              "height": 30,
+              "justifyContent": "center",
+              "marginTop": 15,
+              "opacity": 1,
+              "width": 200,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#ffffff",
+                "fontSize": 13,
+              }
+            }
+          >
+            Add
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</Modal>
+`;
