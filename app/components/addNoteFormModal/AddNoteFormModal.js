@@ -28,6 +28,7 @@ const AddNoteFormModal = ({closeModal, addNote}) => {
               value={text}
               onChangeText={setText}
               style={styles.textInput}
+              placeholder={'Write note...'}
             />
             <TouchableOpacity
               onPress={() => {
@@ -35,7 +36,7 @@ const AddNoteFormModal = ({closeModal, addNote}) => {
                 resetInputs();
               }}
               style={styles.addButton}>
-              <Text style={styles.addButtonText}>Add Note</Text>
+              <Text style={styles.addButtonText}>Add</Text>
             </TouchableOpacity>
           </View>
         </View>
