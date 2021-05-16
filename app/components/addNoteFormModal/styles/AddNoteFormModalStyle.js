@@ -9,7 +9,7 @@ export default StyleSheet.create({
   },
 
   modalView: {
-    width: 220,
+    width: 250,
     backgroundColor: '#ffffff',
     borderRadius: 10,
     shadowColor: '#000',
@@ -23,12 +23,12 @@ export default StyleSheet.create({
   },
 
   titleText: {
-    fontSize: 15,
+    fontSize: 16,
   },
 
   container: {
     alignItems: 'center',
-    paddingBottom: 5,
+    paddingBottom: 20,
   },
 
   closeView: {
@@ -52,10 +52,10 @@ export default StyleSheet.create({
   textInput: {
     marginTop: 15,
     width: 200,
-    height: 30,
+    height: 35,
     borderRadius: 10,
     borderWidth: 1,
-    fontSize: 12,
+    fontSize: 13,
     alignItems: 'center',
     paddingVertical: 0,
     borderColor: '#A9A9A9',
