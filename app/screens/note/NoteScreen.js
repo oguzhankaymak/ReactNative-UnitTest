@@ -59,7 +59,9 @@ const NoteScreen = () => {
       <View style={styles.body}>
         <Text style={styles.contentTitleText}>Note List</Text>
         <View style={styles.line} />
-        <View style={styles.content}>{_renderContent()}</View>
+        <View style={styles.content} testID={'note-content'}>
+          {_renderContent()}
+        </View>
       </View>
     </View>
   );
