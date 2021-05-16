@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`given a text, note card has that text 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#C0C0C0",
+      "borderRadius": 8,
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "padding": 8,
+    }
+  }
+>
+  <View>
+    <Text>
+      Projemi tamamlamam gerekiyor.
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#d9534f",
+        "borderRadius": 5,
+        "height": 34,
+        "justifyContent": "center",
+        "opacity": 1,
+        "width": 50,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#ffffff",
+        }
+      }
+    >
+      delete
+    </Text>
+  </View>
+</View>
+`;
