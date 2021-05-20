@@ -7,7 +7,7 @@
 
 ### Blog
 
-- http://oguzhankaymak.net
+- https://www.oguzhankaymak.net/blog/react-native-birim-test
 
 ### Test Results
 ![coverage](https://user-images.githubusercontent.com/36153454/118408877-33784d00-b690-11eb-9cd7-7434393393b7.png)
