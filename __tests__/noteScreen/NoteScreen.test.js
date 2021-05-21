@@ -2,14 +2,14 @@ import React from 'react';
 import {fireEvent, render} from '@testing-library/react-native';
 import NoteScreen from '../../app/screens/note/NoteScreen';
 
-test("if it hasn't note, showing  description message ", () => {
+test("if it hasn't note, displaying description message ", () => {
   const noNoteMessage = 'Note Not Added Yet';
 
   const {getByText} = render(<NoteScreen />);
   expect(getByText(noNoteMessage)).toBeTruthy();
 });
 
-test('notes showing when notes added', () => {
+test('when new notes added, these notes are displaying', () => {
   const note_1 = 'Blog yazımı tamamlamam gerekiyor.';
   const note_2 = 'Alışveriş yapmam gerekiyor.';
 
@@ -41,7 +41,7 @@ test('notes showing when notes added', () => {
   expect(toJSON()).toMatchSnapshot();
 });
 
-test("when deleted note, that note don't show", () => {
+test("when deleted note, this note don't display", () => {
   const note_1 = 'Blog yazımı tamamlamam gerekiyor.';
   const note_2 = 'Alışveriş yapmam gerekiyor.';
 

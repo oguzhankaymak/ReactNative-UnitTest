@@ -2,7 +2,7 @@ import React from 'react';
 import {fireEvent, render} from '@testing-library/react-native';
 import AddNoteFormModal from '../../app/components/addNoteFormModal/AddNoteFormModal';
 
-test('given a text in the input and then returns that text when click button', () => {
+test('given a text in the input and then returns that text when clicked button', () => {
   var noteText;
 
   const addNote = text => {
